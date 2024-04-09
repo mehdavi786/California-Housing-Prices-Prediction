@@ -1,1 +1,3 @@
 # California-Housing-Prices-Prediction
+
+Starting with importing necessary modules, data was explored first using histograms and heatmaps. The most dominant features were found out using the two methods and then the data was preprocessed such as the feature "ocean_proximity" was one-hot encoded. The 4 features which were right skewed were normalized using logarithms and the 2 new features were engineered, namely "no of bedroom per rooms" and "no of rooms per households." The two new features were extremely dominant. Finally, linear regressor and random forest regressor are used, which gave the accuracy of 66% and 82% respectively.
